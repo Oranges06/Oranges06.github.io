@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Oranges06&#39;s Blog</title>
+  
+  <subtitle>Oranges06&#39;s Blog</subtitle>
+  <link href="https://oranges06.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://oranges06.github.io/"/>
+  <updated>2023-01-26T05:49:15.597Z</updated>
+  <id>https://oranges06.github.io/</id>
+  
+  <author>
+    <name>Oranges06</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="https://oranges06.github.io/2023/01/26/hello/"/>
+    <id>https://oranges06.github.io/2023/01/26/hello/</id>
+    <published>2023-01-26T05:48:54.000Z</published>
+    <updated>2023-01-26T05:49:15.597Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;hello-world&quot;&gt;&lt;a href=&quot;#hello-world&quot; class=&quot;headerlink&quot; title=&quot;hello world&quot;&gt;&lt;/a&gt;hello</summary>
+        
+      
+    
+    
+    
+    
+    <category term="text,hello" scheme="https://oranges06.github.io/tags/text-hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://oranges06.github.io/2023/01/26/hello-world/"/>
+    <id>https://oranges06.github.io/2023/01/26/hello-world/</id>
+    <published>2023-01-26T05:44:02.400Z</published>
+    <updated>2023-01-26T05:44:02.400Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
