@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hello, Oranges06&#39;s Blog">
+    <meta name="keywords" content="git, Oranges06&#39;s Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hello | Oranges06&#39;s Blog</title>
+    <title>git | Oranges06&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -430,12 +430,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hello</h1>
+                    <h1 class="description center-align post-title">git</h1>
                 </div>
             </div>
         </div>
@@ -551,8 +551,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/text-hello/">
-                                <span class="chip bg-color">text,hello</span>
+                            <a href="/tags/git/">
+                                <span class="chip bg-color">git</span>
                             </a>
                         
                     </div>
@@ -576,7 +576,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2
+                    602
                 </div>
                 
 
@@ -596,7 +596,50 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world"></a>hello world</h2>
+                <h1 id="Git学习"><a href="#Git学习" class="headerlink" title="Git学习"></a>Git学习</h1><p><a target="_blank" rel="noopener" href="https://www.yuque.com/mqxu/nczwlh">Git 学习 · 语雀 (yuque.com)</a></p>
+<h2 id="Git常用命令速查表"><a href="#Git常用命令速查表" class="headerlink" title="Git常用命令速查表"></a>Git常用命令速查表</h2><p><img src="https://chenpicture.oss-cn-shanghai.aliyuncs.com/img/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8.jpg?Expires=1674764874&amp;OSSAccessKeyId=TMP.3KjCNnjJ7kXLPzvx4W6CxpN55We5tyVQyxjrnF5wMEwKYb5PGS8DPvfd6QYeYy5BYM2RxLzbPem83k55nAVMoz8YdD8JNm&amp;Signature=Js1eTyThtff91paPNlxAUyTj2Qc=" alt="Git常用命令速查表.jpg"></p>
+<h2 id="一、Git基础"><a href="#一、Git基础" class="headerlink" title="一、Git基础"></a>一、Git基础</h2><h3 id="使用Git之前需要做的小配置"><a href="#使用Git之前需要做的小配置" class="headerlink" title="使用Git之前需要做的小配置"></a><strong>使用Git之前需要做的小配置</strong></h3><p><img src="https://chenpicture.oss-cn-shanghai.aliyuncs.com/img/%E4%BD%BF%E7%94%A8Git%E4%B9%8B%E5%89%8D%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E5%B0%8F%E9%85%8D%E7%BD%AE1.png?Expires=1674765018&amp;OSSAccessKeyId=TMP.3KiaNcMQm1uUrqTfnAS3YSAMMy4Uzqpfue5hie25EfZzbVkopxj222cXn5E3RCkHgaKjMyyUSgFrtMGk9dTC3r56j1ZAFc&amp;Signature=2D7HI4o344zcI36/mESFsBEg2Vc=" alt="使用Git之前需要做的小配置1"></p>
+<h4 id="1-配置用户信息"><a href="#1-配置用户信息" class="headerlink" title="1.配置用户信息"></a>1.配置用户信息</h4><p><code>git config --global user.name 'Your Name'</code></p>
+<p><code>git config --global user.email 'email@domain.com'</code></p>
+<p><img src="https://chenpicture.oss-cn-shanghai.aliyuncs.com/img/%E4%BD%BF%E7%94%A8Git%E4%B9%8B%E5%89%8D%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E5%B0%8F%E9%85%8D%E7%BD%AE2.png?Expires=1674765034&amp;OSSAccessKeyId=TMP.3KiaNcMQm1uUrqTfnAS3YSAMMy4Uzqpfue5hie25EfZzbVkopxj222cXn5E3RCkHgaKjMyyUSgFrtMGk9dTC3r56j1ZAFc&amp;Signature=H91Gm63nUuwOcmV5dVhrTQKct08=" alt="使用Git之前需要做的小配置2"></p>
+<h4 id="2-查看文件所配置用户信息"><a href="#2-查看文件所配置用户信息" class="headerlink" title="2.查看文件所配置用户信息"></a>2.查看文件所配置用户信息</h4><p><code>git config --list --local</code></p>
+<p><code>git config --list --global</code></p>
+<p><code>git config --list --system</code></p>
+<h3 id="创建Git仓库"><a href="#创建Git仓库" class="headerlink" title="创建Git仓库"></a><strong>创建Git仓库</strong></h3><h4 id="1-把已有的项目纳入Git管理"><a href="#1-把已有的项目纳入Git管理" class="headerlink" title="1.把已有的项目纳入Git管理"></a>1.把已有的项目纳入Git管理</h4><p><code>cd 项目代码所在的文件夹</code></p>
+<p><code>git init</code></p>
+<h4 id="2-新建的项目直接用Git管理"><a href="#2-新建的项目直接用Git管理" class="headerlink" title="2.新建的项目直接用Git管理"></a>2.新建的项目直接用Git管理</h4><p><code>cd 某个文件夹</code></p>
+<p><code>git init your_project</code> #会在当前路径下创建和项目名称同名的文件夹</p>
+<p><code>cd your_project</code></p>
+<h3 id="打开本地仓库的文件夹"><a href="#打开本地仓库的文件夹" class="headerlink" title="打开本地仓库的文件夹"></a><strong>打开本地仓库的文件夹</strong></h3><p>1.直接在电脑上打开那个文件夹，然后在文件夹空白处右键选择Git Bash here</p>
+<p>2.在Git Bash中输入路径</p>
+<p><strong>注意！</strong>使用cd命令进入到目录中时，在Git-Bash中应该使用斜线”/”， 而不是反斜线”\”</p>
+<p>①逐个输入文件夹名（在文件夹名称前要加cd ）</p>
+<p>②直接输入一个完整的文件夹路径</p>
+<h3 id="查看"><a href="#查看" class="headerlink" title="查看"></a><strong>查看</strong></h3><p><code>pwd</code> #当前目录</p>
+<p><code>ls -al</code> 当前文件夹</p>
+<p><code>git status</code> #文件夹状况</p>
+<h3 id="退出文件夹"><a href="#退出文件夹" class="headerlink" title="退出文件夹"></a><strong>退出文件夹</strong></h3><p>输入<code>cd ..</code> 点和cd之间有空格</p>
+<p>可以回退到上一个文件夹</p>
+<h3 id="新建、删除"><a href="#新建、删除" class="headerlink" title="新建、删除"></a><strong>新建、删除</strong></h3><p><code>mkdir +文件夹名字</code> #只能新建文件夹</p>
+<p><code>touch +文件名</code> #只能新建文件</p>
+<p><code>rm 文件名.文件类型</code> #删除文件</p>
+<p><code>rm -r 文件夹</code> #删除文件夹</p>
+<p>**注意:**这个要回到上一级文件夹才可以删。比如要删除front-end文件夹，front-end在code里边，就要在code目录下删除</p>
+<p><code>git reset --hard</code> #还原操作，删除暂存区工作路径变更</p>
+<h3 id="通过几次commit来认识工作区和暂存区"><a href="#通过几次commit来认识工作区和暂存区" class="headerlink" title="通过几次commit来认识工作区和暂存区"></a><strong>通过几次commit来认识工作区和暂存区</strong></h3><p><code>git add 多个文件/文件夹</code> #添加进暂存区</p>
+<h3 id="给文件重命名的简便方法"><a href="#给文件重命名的简便方法" class="headerlink" title="给文件重命名的简便方法"></a><strong>给文件重命名的简便方法</strong></h3><h4 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h4><p>1.工作目录把readme变成readme.md</p>
+<p>``mv readme readme.md`</p>
+<p>2.把重命名后的文件添加进来</p>
+<p><code>git add readme.md</code></p>
+<p>3.把原来的文件删除</p>
+<p><code>git rm readme</code></p>
+<h4 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h4><p><code>git mv readme readme.md</code> #readme要变更的文件名，readme.md要变更成的文件名</p>
+<h3 id="通过git-log查看版本演变历史"><a href="#通过git-log查看版本演变历史" class="headerlink" title="通过git log查看版本演变历史"></a><strong>通过git log查看版本演变历史</strong></h3><h4 id="1-添加新文件到版本历史"><a href="#1-添加新文件到版本历史" class="headerlink" title="1.添加新文件到版本历史"></a>1.添加新文件到版本历史</h4><p><code>git commit -m '理由'</code></p>
+<p><code>git commit -m</code> #将所有归git管的文件一起提交</p>
+<p><code>git commit -am</code> #将工作区的东西一起加入版本历史中</p>
+<h4 id="2-看版本演变历史"><a href="#2-看版本演变历史" class="headerlink" title="2.看版本演变历史"></a>2.看版本演变历史</h4><p><code>git log</code> </p>
+<p>`git log –oneline</p>
+
                 
             </div>
             <hr/>
@@ -622,7 +665,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://Oranges06.github.io/2023/01/26/hello/">https://Oranges06.github.io/2023/01/26/hello/</a>
+                    <a href="https://Oranges06.github.io/2023/01/26/git/">https://Oranges06.github.io/2023/01/26/git/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -660,8 +703,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/text-hello/">
-                                    <span class="chip bg-color">text,hello</span>
+                                <a href="/tags/git/">
+                                    <span class="chip bg-color">git</span>
                                 </a>
                             
                         </div>
@@ -831,9 +874,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2023/01/26/git/">
                     <div class="card-image">
@@ -842,51 +886,6 @@
                         <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="git">
                         
                         <span class="card-title">git</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-01-26
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Oranges06
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/git/">
-                        <span class="chip bg-color">git</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/01/26/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -906,6 +905,60 @@
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/git/">
+                        <span class="chip bg-color">git</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/01/26/hello/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="hello">
+                        
+                        <span class="card-title">hello</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-01-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Oranges06
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/text-hello/">
+                        <span class="chip bg-color">text,hello</span>
+                    </a>
+                    
                 </div>
                 
             </div>
