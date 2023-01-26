@@ -106,7 +106,8 @@ a.gitment-header-issue-link:visited {
     box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12) !important;
 }
 
-.gitment-editor-footer .gitment-editor-submit, .gitment-comments-init-btn {
+.gitment-editor-footer .gitment-editor-submit,
+.gitment-comments-init-btn {
     color: #fff;
     background-color: #9c27b0;
     border-color: #9c27b0;
@@ -189,16 +190,21 @@ ol li {
     list-style-type: circle;
 }
 
-.gitment-markdown table, th, td {
+.gitment-markdown table,
+th,
+td {
     padding: 12px 13px;
     border: 1px solid #dfe2e5;
 }
 
-.gitment-markdown table, th, td {
+.gitment-markdown table,
+th,
+td {
     border: 0;
 }
 
-table tr:nth-child(2n), thead {
+table tr:nth-child(2n),
+thead {
     background-color: #fafafa;
 }
 
